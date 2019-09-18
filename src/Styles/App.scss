@@ -1,0 +1,63 @@
+@import './variables';
+
+body {
+  font-family: $roboto;
+  font-weight: $regular;
+  margin: 0;
+  background-color: $blue1;
+  color: $white1;
+  font-size: $fz_title0;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $yellow2;
+  }
+
+  .page-container {
+    min-height: 80vh;
+    margin: 36px 0;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+}
+
+// > 1200px
+@media only screen and (min-width: $xl) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+// < 1200px
+@media only screen and (max-width: $xl) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+// < 991
+@media only screen and (max-width: $lg) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+// < 768
+@media only screen and (max-width: $md) {
+  .container {
+    max-width: 576px;
+  }
+}

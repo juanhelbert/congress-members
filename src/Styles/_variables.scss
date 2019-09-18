@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700&display=swap');
+
+// Font Family
+$montserrat: 'Montserrat', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+// Font Weight
+$regular: 400;
+$bold: 700;
+
+// Font Size
+$fz_title0: 16px;
+$fz_title1: 18px;
+$fz-title2: 20px;
+$fz-title3: 22px;
+$fz-title4: 24px;
+$fz-title5: 30px;
+
+// Colors
+$blue1: #222831;
+$blue2: #181C22;
+$blue3: #1A1D24;
+$white1: #F9FFEE;
+$yellow1: #EFBB35;
+$yellow2: #dfa612;
+$yellow3: #FAE042;
+
+// Gradients
+$gradient_yellow_blue: linear-gradient(to right,#302E24, #28313E);
+
+// Transition
+$trans: .3s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+
+// Responsive Breakpoints
+$xxs: 320px;
+$xs: 425px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;

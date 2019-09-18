@@ -1,0 +1,8 @@
+@import '../../Styles/variables';
+
+body footer {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  background: $blue2;
+}

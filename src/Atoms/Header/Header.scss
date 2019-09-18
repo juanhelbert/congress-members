@@ -1,0 +1,23 @@
+@import '../../Styles/variables';
+
+body header {
+  background: $gradient_yellow_blue;
+  .container {
+    padding: 0;
+  }
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    li a{
+      display: flex;
+      align-items: center;
+      min-height: 60px;
+      color: $white1;
+      padding: 0 15px;
+      transition: $trans;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}
