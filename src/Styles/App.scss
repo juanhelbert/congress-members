@@ -4,7 +4,7 @@ body {
   font-family: $roboto;
   font-weight: $regular;
   margin: 0;
-  background-color: $blue1;
+  background-color: $blue2;
   color: $white1;
   font-size: $fz_title0;
 
@@ -23,7 +23,8 @@ body {
 
   .page-container {
     min-height: 80vh;
-    margin: 36px 0;
+    padding: 20px 0;
+    background-color: $blue1;
   }
   
   .container {
