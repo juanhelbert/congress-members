@@ -1,4 +1,5 @@
-@import './variables';
+@import './icons';
+@import './variables';  
 
 body {
   font-family: $roboto;
@@ -8,7 +9,7 @@ body {
   color: $white1;
   font-size: $fz_title0;
 
-  ul {
+  ul, p {
     margin: 0;
     padding: 0;
     li {
@@ -18,7 +19,11 @@ body {
 
   a {
     text-decoration: none;
-    color: $yellow2;
+    color: $yellow1;
+    transition: $trans;
+    &:hover {
+      opacity: 0.6;
+    }
   }
 
   .page-container {

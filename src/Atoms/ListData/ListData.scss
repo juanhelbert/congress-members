@@ -1,0 +1,56 @@
+@import '../../Styles/variables';
+
+.list-data {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    li {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      background: $blue2;
+      width: 30%;
+      padding: 15px;
+      margin: 10px 0;
+      p {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        span {
+          width: 100%;
+          padding: 4px 0 0 0;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          width: fit-content;
+        }
+        &.title {
+          font-family: $montserrat;
+          font-weight: $bold;
+          font-size: $fz-title2;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+// < 1200px
+@media only screen and (max-width: $xl) {
+  .list-data {
+    ul li {
+      width: 44%;
+    }
+  }
+}
+
+// < 768
+@media only screen and (max-width: $md) {
+  .list-data {
+    ul li {
+      width: 100%;
+    }
+  }
+}

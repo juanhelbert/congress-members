@@ -1,0 +1,28 @@
+@import '../../Styles/variables';
+
+.congress-wrapper {
+  input {
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    margin: 0 auto 10px;
+    display: flex;
+    font-family: $montserrat;
+    background-color: $white1; 
+    box-sizing: border-box;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+// < 768
+@media only screen and (max-width: $md) {
+  .congress-wrapper{
+    input {
+      width: 100%;
+    }
+  }
+}
