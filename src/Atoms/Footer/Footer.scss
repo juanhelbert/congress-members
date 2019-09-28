@@ -2,7 +2,10 @@
 
 body footer {
   display: flex;
-  align-items: center;
-  min-height: 100px;
   background: $blue2;
+  text-align: center;
+  padding: 10px 0;
+  font-family: $montserrat;
+  font-size: 12px;
+  letter-spacing: 1px;
 }

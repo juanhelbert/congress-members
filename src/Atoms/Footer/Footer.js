@@ -4,7 +4,7 @@ import './Footer.scss';
 const Footer = () => (
   <footer>
     <div className='container'>
-      Footer
+      Made with ❤️by <a href='https://juanhelbert.github.io' target='?blank'>Juan Helbert</a>
     </div>
   </footer>
 );
