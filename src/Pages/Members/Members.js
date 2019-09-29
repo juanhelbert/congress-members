@@ -17,6 +17,7 @@ const DetailedView = () => {
       }).then(resp => setCongressData(resp.data));
     };
     fetchData();
+    window.scrollTo(0, 0)
   }, []);
 
   return (
