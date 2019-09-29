@@ -1,6 +1,7 @@
 @import '../../Styles/variables';
 
 .list-data {
+  min-height: 76vh;
   ul {
     display: flex;
     flex-wrap: wrap;

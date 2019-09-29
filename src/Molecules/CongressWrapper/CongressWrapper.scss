@@ -6,7 +6,7 @@
     border-radius: 8px;
     border: none;
     padding: 15px;
-    font-size: 16px;
+    font-size: $fz_title0;
     margin: 0 auto 10px;
     display: flex;
     font-family: $montserrat;
@@ -14,6 +14,14 @@
     box-sizing: border-box;
     &:focus {
       outline: none;
+    }
+  }
+  .copyright {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    a {
+      color: $white1;
     }
   }
 }

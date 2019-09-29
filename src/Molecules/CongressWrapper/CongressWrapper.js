@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import ListData from '../../Atoms/ListData/ListData';
+import ToTopArrow from '../../Atoms/ToTopArrow/ToTopArrow';
 import './CongressWrapper.scss';
 
 const CongressWrapper = ({data}) => {
@@ -24,6 +25,12 @@ const CongressWrapper = ({data}) => {
       placeholder='Write your filter'
     />
     <ListData data={filteredMembers} />
+    <p className='copyright'>
+      <a href='https://projects.propublica.org/api-docs/congress-api/' target='_blank' rel="noopener noreferrer">
+        {data.copyright}
+      </a>
+    </p>
+    <ToTopArrow />
   </div>
 }
 
