@@ -4,4 +4,4 @@ This project was created using [create-react-app](https://github.com/facebook/cr
 
 The application lists the members of the congress and offers you the possibility of filter them, know their social networks and contact them.
 
-You can see a demo [clicking here](https://awesome-bhabha-c68ebd.netlify.com).
+You can see a demo [clicking here](https://congressmembers.netlify.com).

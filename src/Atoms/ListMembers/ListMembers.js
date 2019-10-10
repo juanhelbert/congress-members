@@ -1,7 +1,7 @@
 import React from 'react';
-import './ListData.scss';
+import './ListMembers.scss';
 
-const ListData = ({data}) => {
+const ListMembers = ({data}) => {
   const listedData = data.map(item =>
     <li key={item.id} className={`id-${item.id}`}>
       <p className='title'>
@@ -33,4 +33,4 @@ const ListData = ({data}) => {
   </div>
 }
 
-export default ListData;
+export default ListMembers;
